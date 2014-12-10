@@ -1,0 +1,142 @@
+
+head {
+  background-color: #080000;
+}
+
+body {
+  background-color: #d0e4fe;
+
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-height: 12.5%;
+  background-color: white;
+  font-family: "Comic Sans MS";
+  padding: 8px;
+  z-index: 1;
+
+}
+
+h1 {
+  font-family: "Comic Sans MS";
+  /*background-color: blue;*/
+
+
+}
+
+#logo {
+  position: absolute;
+  top: -20;
+  color: orange;
+  text-align: left;
+}
+
+nav {
+  position: absolute;
+  /* float: left;*/
+  top: 70%;
+}
+
+
+p {
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+
+.logout {
+  color: white;
+  border-radius: 50px;
+  width: 8%;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logout {
+  background: rgb(202, 60, 60);
+  position: absolute;
+  right: 38px;
+  top: 3%;
+  font-size: 100%;
+  z-index: 1;
+}
+
+.signup {
+  color: white;
+  border-radius: 10px;
+  background: rgb(28, 184, 65); /* this is a green */
+  font-size: 100%;
+}
+
+.login {
+  color: white;
+  border-radius: 10px;
+  background: rgb(66, 184, 221); /* this is a light blue */
+  font-size: 100%;
+}
+
+
+#postblock {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: #500000;
+  border-radius: 30;
+}
+
+.posts {
+  position: relative;
+  font-family: "Comic Sans MS";
+  right: 3.5%;
+  color: white;
+  border-bottom: solid;
+  border-bottom-color: #C0C0C0;
+}
+
+p.user {
+  color: white;
+}
+
+.user {
+  position: relative;
+  right: -3%;
+  font-family: "Comic Sans MS"
+  color: white;
+}
+
+.post_include {
+  position: relative;
+  right: -3%;
+  color: #66CCFF;
+  background-color: #500000;
+}
+
+.tags {
+  position: relative;
+  right: -3%;
+}
+
+.search {
+  position: absolute;
+  right: 3%;
+  top: 10%;
+}
+
+.search_input{
+  border: 10px;
+  border-radius: 30;
+}
+
+#content {
+  position: relative;
+  top: 150px;
+}
